@@ -6,13 +6,12 @@ import { Usuario } from '../models/usuario';
 })
 export class UsuarioService {
 
-  usuario! : Usuario;
+  usuario: Usuario = new Usuario();
 
   constructor() { 
     let usuario = this.usuario
     usuario.userID = 1;
     usuario.nombre = "Pepito"
     usuario.password = "america123"
-    console.log(this.usuario)
   }
 }

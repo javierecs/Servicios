@@ -1,6 +1,6 @@
 <div class="container">
-    <div class="articulo" *ngFor="let articulo of articulos">
-        <h4 (click)="irADetalle(articulo)">Titulo: {{ articulo.titulo }}</h4>
+    <div class="articulo">
+        <h4>Titulo: {{ articulo.titulo }}</h4>
         <p>Descripción: {{ articulo.descripcion }} </p>
         <p>Fecha: {{ articulo.fecha }}</p>
         <p>Autor: {{ articulo.autor.nombre }}</p>
